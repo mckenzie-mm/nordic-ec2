@@ -1,0 +1,7 @@
+scp -i my-ec2-key.pem ./install/* ec2-user@3.25.162.118:~/install
+
+ssh -i my-ec2-key.pem ec2-user@3.25.162.118
+
+sudo su
+
+docker compose up -d
