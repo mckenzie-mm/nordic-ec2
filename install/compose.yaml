@@ -1,9 +1,9 @@
 services:
   webapi:
-    image: snapdragonxc/dotnet-wwurm
+    image: snapdragonxc/dotnet-charm
     ports:
       - 0.0.0.0:5000:5000
   app:
-    image: snapdragonxc/app-wwurm
+    image: snapdragonxc/app-charm
     ports:
       - 0.0.0.0:3000:3000
