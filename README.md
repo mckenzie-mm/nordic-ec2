@@ -1,3 +1,3 @@
 # nordic-ec2
 
-deployment using docker compose
+Deployment using docker compose on an AWS EC2 instance
